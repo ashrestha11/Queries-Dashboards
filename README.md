@@ -19,9 +19,7 @@ RIGHT OUTER JOIN `bigquery-public-data.covid19_nyt.us_counties` as counties
 ),
 
 ```
-
 After joining the tables, I created lag columns for confirmed cases and death so I can create daily changes or percantage change. 
-
 ```SQL
 daily_change AS (SELECT *, lag(confirmed_cases,1) OVER one_day_lag as lag_cases,
 lag(deaths,1) OVER one_day_lag as lag_deaths
@@ -36,3 +34,4 @@ FROM daily_change )
 SELECT * FROM temp_table 
 
 ```
+Link for dashboard: https://datastudio.google.com/u/0/reporting/45e97e16-08ca-4e4d-a7a9-bce29d86f17f/page/31MZB
