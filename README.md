@@ -1,6 +1,6 @@
-# Using Bigquery and Creating Dashboards 
+# Code Snippets for Queries, Metrics and Dashboards 
 
-  Google's Bigquery gives an opportunity to work with big data and learn advance SQL querying methods. Also, it is relatively simple to create dashboards from the queries or new data tables we have created. The goal of this respoitory to provide examples of several querying methods and a reference source for the future. 
+ Sample codes references for SQL queries, creating metrics and dashboards through Bigquery, and other SQL editor.
   
 ### Example #1 
 
