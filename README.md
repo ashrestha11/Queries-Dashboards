@@ -1,6 +1,6 @@
 # Code Snippets for Queries, Metrics and Dashboards 
 
- Sample codes references for SQL queries, creating metrics and dashboards through Bigquery, and other SQL editor.
+ Sample codes references for SQL queries, creating metrics and dashboards through Bigquery, and other SQL editor. SQL queries can be found on 'SQLqueries' folder.  
   
 ### Example #1 
 
